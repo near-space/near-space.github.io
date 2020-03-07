@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="../../css/page-min.css">
 	<link rel="stylesheet" href="../../css/preloader.css">
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="../../img/favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow" /> -->
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
@@ -73,10 +73,12 @@
 				</div>
 				</div>
 			</div>
-		<footer>
+<footer>
 	<div class='container'>
 		<div class="footer-body">
-			
+			<div class="footer__logo">NEAR SPACE</div>
+			<div class="footer__copyright" id="honk">© 2020 SPACE TECHNOLOGIES CORP “Я хочу питсы”.</div>
+			<a href="#honk" onclick="playAudio();" class="footer__logopic"><img src="../../img/flogo.png" alt=""></a>
 		</div>
 	</div>
 </footer>
@@ -119,6 +121,13 @@
 <script src="../../js/main.js"></script>
 <script src="../../js/preloader.js"></script>
 <script src="../../js/vendors.js"></script>
+<script type="text/javascript">
+			function playAudio(){
+			var myAudio = new Audio;
+			myAudio.src = "../../img/Honk.mp3";
+			myAudio.play();
+			}
+			</script>
 
 </body>
 
