@@ -783,14 +783,14 @@ footer {
           float: none;
           margin: 0 auto; } }
 
-#title2 {
+.title2 {
   color: #ffffff;
   font-size: 40px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 2.28px; }
   @media (max-width: 992.98px) {
-    #title2 {
+    .title2 {
       font-size: 25px;
       letter-spacing: 1.5px; } }
 
